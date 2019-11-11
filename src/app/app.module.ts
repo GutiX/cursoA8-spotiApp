@@ -10,6 +10,10 @@ import { HomeComponent } from './components/home/home.component';
 import { SearchComponent } from './components/search/search.component';
 import { ArtistaComponent } from './components/artista/artista.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
+import { NoimagePipe } from './pipes/noimage.pipe';
+import { TarjetaComponent } from './components/tarjeta/tarjeta.component';
+import { LoadingComponent } from './components/shared/loading/loading.component';
+import { DomseguroPipe } from './pipes/domseguro.pipe';
 
 @NgModule({
   declarations: [
@@ -17,7 +21,11 @@ import { NavbarComponent } from './components/navbar/navbar.component';
     HomeComponent,
     SearchComponent,
     ArtistaComponent,
-    NavbarComponent
+    NavbarComponent,
+    NoimagePipe,
+    DomseguroPipe,
+    TarjetaComponent,
+    LoadingComponent
   ],
   imports: [
     BrowserModule,
